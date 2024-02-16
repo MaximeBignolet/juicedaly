@@ -1,11 +1,11 @@
 <template>
   <div
-    class="h-screen bg-[url('~/assets/image/bg-home.png')] bg-no-repeat bg-cover"
+    class="h-screen w-screen bg-[url('~/assets/image/bg-home.png')] bg-no-repeat bg-cover"
   >
-    <div class="flex justify-end my-auto h-5/6">
-      <div class="flex flex-col justify-center">
+    <div class="lg:flex lg:justify-end lg:my-auto lg:h-5/6 lg:w-full">
+      <div class="lg:flex lg:flex-col lg:justify-center lg:w-1/2">
         <div
-          class="bg-[#4E9AA9]/15 w-[40%] flex gap-5 items-center p-3 cursor-pointer hover:scale-[1.1] transition-all ease-linear"
+          class="bg-[#4E9AA9]/15 lg:w-[45%] lg:flex lg:gap-5 lg:items-center lg:justify-between lg:p-3 cursor-pointer hover:scale-[1.1] transition-all ease-linear"
         >
           <p class="bg-white w-fit text-xs p-2 text-[#4E9AA9]">NEW RECIPE</p>
           <p class="text-[#4E9AA9] text-sm">
