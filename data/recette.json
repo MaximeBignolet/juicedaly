@@ -1,0 +1,105 @@
+{
+    "recettes": [
+      {
+        "id" : "164717fb-e48e-402e-9996-798f280c7e83",
+        "titre": "Gâteau au chocolat",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Dupont",
+          "prenom": "Jean"
+        },
+        "description": "Un délicieux gâteau au chocolat fondant et facile à préparer."
+      },
+      {
+        "id" : "ef62cca7-fd20-4d11-b143-2ea487d17e1c",
+        "titre": "Quiche lorraine",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Martin",
+          "prenom": "Alice"
+        },
+        "description": "Classique de la cuisine française, idéale pour un repas léger."
+      },
+      {
+        "id" : "12eb96aa-5477-4481-b67a-a37bf2e90f2a",
+        "titre": "Salade César",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Bernard",
+          "prenom": "Claire"
+        },
+        "description": "Une salade fraîche et croquante avec une vinaigrette maison."
+      },
+      {
+        "id" : "bd9d6bc4-8ee3-4b80-92a8-df49f53b92f2",
+        "titre": "Lasagnes à la bolognaise",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Moreau",
+          "prenom": "Luc"
+        },
+        "description": "Une recette riche et réconfortante aux multiples couches."
+      },
+      {
+        "id" : "2a4aad8b-1ac2-45c9-841f-8e4199bb4b19",
+        "titre": "Ratatouille",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Leroy",
+          "prenom": "Sophie"
+        },
+        "description": "Un mélange savoureux de légumes du soleil, parfait pour l'été."
+      },
+      {
+        "id" : "cfdb3636-8961-4b68-993c-2aed314db2b5",
+        "titre": "Crêpes Suzette",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Roux",
+          "prenom": "Guillaume"
+        },
+        "description": "Des crêpes légères servies avec une sauce au beurre et à l'orange."
+      },
+      {
+        "id" : "4a219a16-ab41-4118-a96a-077e349c8c11",
+        "titre": "Soupe à l'oignon",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Vincent",
+          "prenom": "Marie"
+        },
+        "description": "Un classique réconfortant, idéal pour les soirées d'hiver."
+      },
+      {
+        "id" : "70f0a4e4-4d80-45d5-8238-883145d9046e",
+        "titre": "Tarte Tatin",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Fournier",
+          "prenom": "Emilie"
+        },
+        "description": "Une tarte aux pommes caramélisées, renversée avant de servir."
+      },
+      {
+        "id" : "f329fe48-b96d-4c08-95eb-1172efd573b2",
+        "titre": "Poulet basquaise",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Girard",
+          "prenom": "David"
+        },
+        "description": "Un plat mijoté avec du poulet, des poivrons et de la tomate."
+      },
+      {
+        "id" : "07961e18-4793-4f82-9945-231868b6c9a2",
+        "titre": "Mousse au chocolat",
+        "image": "lien_vers_l_image",
+        "auteur": {
+          "nom": "Lefebvre",
+          "prenom": "Julie"
+        },
+        "description": "Une mousse légère et aérienne au chocolat noir."
+      }
+    ]
+  }
+  

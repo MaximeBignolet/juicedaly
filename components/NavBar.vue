@@ -6,7 +6,7 @@
     </div>
     <div v-if="isLargeScreen" class="py-5">
       <nav class="font-thin text-xl text-black">
-        <NuxtLink to="#" class="hover:text-[#11BCC7]">Browse</NuxtLink>
+        <NuxtLink to="/recipes" class="hover:text-[#11BCC7]">Recipes</NuxtLink>
         <NuxtLink to="#" class="mx-20 hover:text-[#11BCC7]">Trending</NuxtLink>
         <NuxtLink to="#" class="hover:text-[#11BCC7]">Contributors</NuxtLink>
         <NuxtLink to="#" class="ml-20 hover:text-[#11BCC7]">Community</NuxtLink>
@@ -50,10 +50,16 @@
         <nav
           class="font-thin text-black pl-10 pt-10 gap-5 flex flex-col text-xl"
         >
-          <NuxtLink to="#" class="hover:text-[#4E9AA9]">Browse</NuxtLink>
-          <NuxtLink to="#">Trending</NuxtLink>
-          <NuxtLink to="#">Contributors</NuxtLink>
-          <NuxtLink to="#" class="pb-5">Community</NuxtLink>
+          <NuxtLink to="/recipes" class="hover:text-[#11BCC7]"
+            >Recipes</NuxtLink
+          >
+          <NuxtLink to="#" class="mx-20 hover:text-[#11BCC7]"
+            >Trending</NuxtLink
+          >
+          <NuxtLink to="#" class="hover:text-[#11BCC7]">Contributors</NuxtLink>
+          <NuxtLink to="#" class="ml-20 hover:text-[#11BCC7]"
+            >Community</NuxtLink
+          >
         </nav>
       </div>
     </div>

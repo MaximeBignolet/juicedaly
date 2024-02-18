@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: false,
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
   plugins: ["~/plugins/fontawesome.ts"],
 });
