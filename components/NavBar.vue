@@ -1,6 +1,9 @@
 <template>
   <div class="h-20 flex justify-between items-center relative">
-    <div class="pl-5 flex items-center gap-3 py-5">
+    <div
+      class="pl-5 flex items-center gap-3 py-5 cursor-pointer"
+      @click="() => navigateTo('/')"
+    >
       <img src="~/assets/image/logo.png" alt="" class="h-6 w-6" />
       <p class="text-[#11BCC7] font-semibold">JUICEDAILY</p>
     </div>
@@ -53,11 +56,9 @@
           <NuxtLink to="/recipes" class="hover:text-[#11BCC7]"
             >Recipes</NuxtLink
           >
-          <NuxtLink to="#" class="mx-20 hover:text-[#11BCC7]"
-            >Trending</NuxtLink
-          >
+          <NuxtLink to="#" class="hover:text-[#11BCC7]">Trending</NuxtLink>
           <NuxtLink to="#" class="hover:text-[#11BCC7]">Contributors</NuxtLink>
-          <NuxtLink to="#" class="ml-20 hover:text-[#11BCC7]"
+          <NuxtLink to="#" class="hover:text-[#11BCC7 pb-10"
             >Community</NuxtLink
           >
         </nav>

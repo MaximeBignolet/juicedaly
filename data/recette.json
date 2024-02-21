@@ -1,105 +1,124 @@
 {
-    "recettes": [
-      {
-        "id" : "164717fb-e48e-402e-9996-798f280c7e83",
-        "titre": "Gâteau au chocolat",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Dupont",
-          "prenom": "Jean"
-        },
-        "description": "Un délicieux gâteau au chocolat fondant et facile à préparer."
+  "recipes": [
+    {
+      "id": "164717fb-e48e-402e-9996-798f280c7e83",
+      "title": "Chocolate Cake",
+      "image": "/recipes_img/cake_chocolate.webp",
+      "author": {
+        "last_name": "Dupont",
+        "first_name": "Jean"
       },
-      {
-        "id" : "ef62cca7-fd20-4d11-b143-2ea487d17e1c",
-        "titre": "Quiche lorraine",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Martin",
-          "prenom": "Alice"
-        },
-        "description": "Classique de la cuisine française, idéale pour un repas léger."
+      "description": "A delicious, melt-in-your-mouth chocolate cake that's easy to prepare.",
+      "category": "Dessert",
+      "read_time": 5
+    },
+    {
+      "id": "ef62cca7-fd20-4d11-b143-2ea487d17e1c",
+      "title": "Quiche Lorraine",
+      "image": "/recipes_img/quiche.webp",
+      "author": {
+        "last_name": "Martin",
+        "first_name": "Alice"
       },
-      {
-        "id" : "12eb96aa-5477-4481-b67a-a37bf2e90f2a",
-        "titre": "Salade César",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Bernard",
-          "prenom": "Claire"
-        },
-        "description": "Une salade fraîche et croquante avec une vinaigrette maison."
+      "description": "A classic of French cuisine, ideal for a light meal.",
+      "category": "Main Course",
+      "read_time": 4
+    },
+    {
+      "id": "12eb96aa-5477-4481-b67a-a37bf2e90f2a",
+      "title": "Caesar Salad",
+      "image": "/recipes_img/caesar.webp",
+      "author": {
+        "last_name": "Bernard",
+        "first_name": "Claire"
       },
-      {
-        "id" : "bd9d6bc4-8ee3-4b80-92a8-df49f53b92f2",
-        "titre": "Lasagnes à la bolognaise",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Moreau",
-          "prenom": "Luc"
-        },
-        "description": "Une recette riche et réconfortante aux multiples couches."
+      "description": "A fresh and crunchy salad with homemade dressing.",
+      "category": "Salad",
+      "read_time": 3
+    },
+    {
+      "id": "bd9d6bc4-8ee3-4b80-92a8-df49f53b92f2",
+      "title": "Lasagna Bolognese",
+      "image": "/recipes_img/lasagne.webp",
+      "author": {
+        "last_name": "Moreau",
+        "first_name": "Luc"
       },
-      {
-        "id" : "2a4aad8b-1ac2-45c9-841f-8e4199bb4b19",
-        "titre": "Ratatouille",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Leroy",
-          "prenom": "Sophie"
-        },
-        "description": "Un mélange savoureux de légumes du soleil, parfait pour l'été."
+      "description": "A rich and comforting recipe with multiple layers.",
+      "category": "Main Course",
+      "read_time": 7
+    },
+    {
+      "id": "2a4aad8b-1ac2-45c9-841f-8e4199bb4b19",
+      "title": "Ratatouille",
+      "image": "/recipes_img/ratatouille.webp",
+      "author": {
+        "last_name": "Leroy",
+        "first_name": "Sophie"
       },
-      {
-        "id" : "cfdb3636-8961-4b68-993c-2aed314db2b5",
-        "titre": "Crêpes Suzette",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Roux",
-          "prenom": "Guillaume"
-        },
-        "description": "Des crêpes légères servies avec une sauce au beurre et à l'orange."
+      "description": "A flavorful mix of sun-soaked vegetables, perfect for summer.",
+      "category": "Side Dish",
+      "read_time": 6
+    },
+    {
+      "id": "cfdb3636-8961-4b68-993c-2aed314db2b5",
+      "title": "Crêpes Suzette",
+      "image": "/recipes_img/crepe.webp",
+      "author": {
+        "last_name": "Roux",
+        "first_name": "Guillaume"
       },
-      {
-        "id" : "4a219a16-ab41-4118-a96a-077e349c8c11",
-        "titre": "Soupe à l'oignon",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Vincent",
-          "prenom": "Marie"
-        },
-        "description": "Un classique réconfortant, idéal pour les soirées d'hiver."
+      "description": "Light crepes served with an orange and butter sauce.",
+      "category": "Dessert",
+      "read_time": 5
+    },
+    {
+      "id": "4a219a16-ab41-4118-a96a-077e349c8c11",
+      "title": "Onion Soup",
+      "image": "/recipes_img/onion_soup.webp",
+      "author": {
+        "last_name": "Vincent",
+        "first_name": "Marie"
       },
-      {
-        "id" : "70f0a4e4-4d80-45d5-8238-883145d9046e",
-        "titre": "Tarte Tatin",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Fournier",
-          "prenom": "Emilie"
-        },
-        "description": "Une tarte aux pommes caramélisées, renversée avant de servir."
+      "description": "A comforting classic, perfect for winter evenings.",
+      "category": "Soup",
+      "read_time": 4
+    },
+    {
+      "id": "70f0a4e4-4d80-45d5-8238-883145d9046e",
+      "title": "Tarte Tatin",
+      "image": "/recipes_img/tatin.webp",
+      "author": {
+        "last_name": "Fournier",
+        "first_name": "Emilie"
       },
-      {
-        "id" : "f329fe48-b96d-4c08-95eb-1172efd573b2",
-        "titre": "Poulet basquaise",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Girard",
-          "prenom": "David"
-        },
-        "description": "Un plat mijoté avec du poulet, des poivrons et de la tomate."
+      "description": "An upside-down caramelized apple tart, flipped before serving.",
+      "category": "Dessert",
+      "read_time": 8
+    },
+    {
+      "id": "f329fe48-b96d-4c08-95eb-1172efd573b2",
+      "title": "Basque Chicken",
+      "image": "/recipes_img/basquez.webp",
+      "author": {
+        "last_name": "Girard",
+        "first_name": "David"
       },
-      {
-        "id" : "07961e18-4793-4f82-9945-231868b6c9a2",
-        "titre": "Mousse au chocolat",
-        "image": "lien_vers_l_image",
-        "auteur": {
-          "nom": "Lefebvre",
-          "prenom": "Julie"
-        },
-        "description": "Une mousse légère et aérienne au chocolat noir."
-      }
-    ]
-  }
-  
+      "description": "A stewed dish with chicken, peppers, and tomato.",
+      "category": "Main Course",
+      "read_time": 7
+    },
+    {
+      "id": "07961e18-4793-4f82-9945-231868b6c9a2",
+      "title": "Chocolate Mousse",
+      "image": "/recipes_img/mousse_chocolat.webp",
+      "author": {
+        "last_name": "Lefebvre",
+        "first_name": "Julie"
+      },
+      "description": "A light and airy dark chocolate mousse.",
+      "category": "Dessert",
+      "read_time": 2
+    }
+  ]
+}
